@@ -40,7 +40,7 @@ temporizadores, armazenamento local e navegação entre telas.
 - Ordenação do histórico: organização dos registros diretamente na interface.
 
 - Navegação entre telas: troca de componentes sem recarregar a página, além de
-  páginas informativas sobre a técnica Pomodoro.
+  páginas informativas sobre a técnica Pomodoro e página 404.
 
 ## 🛠️ Tecnologias e conceitos estudados
 
@@ -105,4 +105,9 @@ Curso: Curso de React JS 19 e Next.js 15 - Udemy
 Repositório:
 [[Chronos pomodoro](https://github.com/luizomf/chronos-pomodoro/tree/main)]
 
-Demonstração: [Adicionar link da aplicação publicada, quando disponível]
+# Demonstração
+
+![Chronos pomodoro Screenshot](./screenshots/chronos-pomodoro-home.png)
+![Chronos pomodoro Screenshot](./screenshots/chronos-pomodoro-settings.png)
+![Chronos pomodoro Screenshot](./screenshots/chronos-pomodoro-history.png)
+![Chronos pomodoro Screenshot](./screenshots/chronos-pomodoro-page.png)
