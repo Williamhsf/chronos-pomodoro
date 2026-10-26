@@ -1,25 +1,33 @@
-import { Heading } from './components/Heading';
-
 import './styles/global.css';
 import './styles/theme.css';
-import { TimerIcon } from 'lucide-react';
+
+import { Container } from './components/Container';
+import { Heading } from './components/Heading';
 
 export function App() {
   return (
     <>
-      <Heading>
-        Olá mundo 1
-        <button>
-          <TimerIcon />
-        </button>
-      </Heading>
+      <Container>
+        <Heading>LOGO</Heading>
+      </Container>
+      <Container>
+        <Heading>MENU</Heading>
+      </Container>
+      <Container>
+        <Heading>FORM</Heading>
+      </Container>
+      <Container>
+        <Heading>FOOTER</Heading>
+      </Container>
 
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum cumque
-        incidunt accusamus commodi quasi sit, doloribus in fugiat, repellat
-        laudantium voluptas praesentium labore dolore unde! Aliquam, dolorem! A,
-        quia rerum!
-      </p>
+      {/* em espera */}
+      <div className='container-fluid'>
+        <div className='container'>
+          <div className='content'>
+            <section></section>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
