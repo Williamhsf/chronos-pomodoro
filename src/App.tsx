@@ -6,6 +6,7 @@ import { Logo } from './components/Logo';
 import { Menu } from './components/Menu';
 import { CountDown } from './components/CountDown';
 import { DefaultInput } from './components/DefaultInput';
+import { Cycles } from './components/Cycles';
 
 export function App() {
   return (
@@ -35,16 +36,13 @@ export function App() {
           </div>
 
           <div className='formRow'>
-            <p>Ciclos</p>
-            <p>0 0 0 0 0 0 0</p>
-          </div>
-
-          <div className='formRow'>
             <button>enviar</button>
           </div>
         </form>
       </Container>
-
+      <Container>
+        <Cycles />
+      </Container>
       {/* em espera */}
       <div className='container-fluid'>
         <div className='container'>
