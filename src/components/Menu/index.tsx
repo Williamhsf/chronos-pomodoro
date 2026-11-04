@@ -6,11 +6,7 @@ import {
   SunIcon,
 } from 'lucide-react';
 import styles from './styles.module.css';
-<<<<<<< HEAD
 import { useEffect, useState } from 'react';
-=======
-import { useState, useEffect } from 'react';
->>>>>>> 8a30104f3871acecfc92ecf33d6aa3653d56a986
 
 type AvailableThemes = 'dark' | 'light';
 
@@ -30,11 +26,7 @@ export function Menu() {
     event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
   ) {
     event.preventDefault();
-<<<<<<< HEAD
 
-=======
-    // console.log('clicado', Date.now());
->>>>>>> 8a30104f3871acecfc92ecf33d6aa3653d56a986
     setTheme(prevTheme => {
       const nextTheme = prevTheme === 'dark' ? 'light' : 'dark';
       return nextTheme;
@@ -42,18 +34,9 @@ export function Menu() {
   }
 
   useEffect(() => {
-<<<<<<< HEAD
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
-  }, [theme]);
-=======
-    console.log('Theme mudou', theme, Date.now());
-
-    return () => {
-      console.log('Olha, este componente sera atualizado');
-    };
   }, [theme]); // executa apenas quando o valor de theme muda
->>>>>>> 8a30104f3871acecfc92ecf33d6aa3653d56a986
 
   return (
     <nav className={styles.menu}>
