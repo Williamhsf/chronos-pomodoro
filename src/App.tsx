@@ -5,21 +5,6 @@ import './styles/theme.css';
 import { useState } from 'react';
 import type { TaskStateModel } from './models/TaskStateModel';
 
-// import { NotFound } from './pages/NotFound';
-// import { AboutPomodoro } from './pages/AboutPomodoro';
-// export type TaskStateModel = {
-//   tasks: TaskModel[];
-//   secondsRemaining: number;
-//   formattedSecondsRemaining: string; // conversao de number para string
-//   activeTask: TaskModel | null;
-//   currentCycle: number; // 1 a 8
-//   config: {
-//     workTime: number;
-//     shortBreakTime: number;
-//     longBreakTime: number;
-//   };
-// };
-
 const initialState: TaskStateModel = {
   tasks: [],
   secondsRemaining: 0,
@@ -36,5 +21,5 @@ const initialState: TaskStateModel = {
 export function App() {
   const [state, setState] = useState(initialState);
 
-  return <Home state={state} setState={setState} />;
+  return <Home />;
 }
